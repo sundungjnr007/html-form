@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="">
+            <div style="text-align: center;">
+                <h1>HOTEL RESERVATIONS</h1>
+                <P style="font-weight: bold; font-size: 25px;"><i> Motto: Home Away From Home </i></P>
+            </div>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="firstname">FIRST NAME;</label> 
+                <input type="text" placeholder="enter firstname"> <br> <br>
+                <label for="lastname">LAST NAME;</label>
+                <input type="text" placeholder="enter lastname"> <br> <br>
+                <label for="phonenumber">PHONE NUMBER;</label>
+                <input type="number" placeholder="enter phonenumber"> <br> <br>
+                <label for="emailaddress">email address;</label>
+                <input type="text" placeholder="enter email address"> <br> <br>
+                <label for="homeaddress">HOME ADDRESS;</label>
+                <input type="text" placeholder="enter home address"> <br> <br>
+                <label for="age">AGE;</label>
+                <input type="number" placeholder="enter age"> <br> <br>
+                <label for="gender">GENDER</label><br>
+                Male; <input type="radio" name="gender"> 
+                Female; <input type="radio" name="gender">
+                Others; <input type="radio" name="gender">
+            </fieldset>
+            <fieldset>
+                <legend>Room Specification</legend>
+                <label for="arrivaldate">ARRIVAL DATE;</label>
+                <input type="date"> <br> <br>
+                <label for="depaturedate">DEPATURE DATE</label>
+                <input type="date"> <br> <br>
+                <label for="numberofadults">NUMBER OF ADULTS</label>
+                <input type="number"> <br> <br>
+                <label for="numberofchildren">NUMBER OF CHILDREN</label>
+                <input type="number"> <br> <br>
+                <label for="roomtype">ROOM TYPE</label> 
+                 <select name="rooms" id="">
+                     <option value="" selected="true" disabled="disabled">--select--</option>
+                     <option value="">single</option>
+                     <option value="">twin</option>
+                     <option value="">apartment</option>
+                     <option value="">presidential suite</option>
+                 </select> <br> <br>
+                 <label for="paymenttype">PAYMENT TYPE</label>
+                     <select name="payment" id="">
+                            <option value="" selected="true" disabled="disabled">--select--</option>
+                            <option value="">cash</option>
+                            <option value="">credit card</option>
+                     </select>
+            </fieldset>
+            <fieldset>
+                <legend>Account Details</legend>
+                <label for="accountname">ACCOUNT NAME</label>
+                <input type="text" placeholder="enter acc name"> <br> <br>
+                <label for="accountnumber">ACCOUNT NUMBER</label>
+                <input type="number" placeholder="enter acc number"> <br> <br>
+                <label for="bankname">BANK NAME</label>
+                <select name="bank" id="">
+                    <option value="" selected="true" disabled="disabled">--select--</option>
+                    <option value="">zenith bank</option>
+                    <option value="">access bank</option>
+                    <option value="">first bank</option>
+                    <option value="">ecobank</option>
+                    <option value="">gtbank</option>
+                    <option value="">union bank</option>
+                    <option value="">UBA</option>
+                    <option value="">fidelity bank</option>
+                    <option value="">stanbic IBTC</option>
+                    <option value="">fcmb</option>
+                    <option value="">keystone bank</option>
+                    <option value="">polaris bank</option>
+                </select>
+            </fieldset>
+            <input type="checkbox">
+            <label for="">I accept the terms and conditions and agree to the company's privacy policy</label> <br> <br>
+            <button>Submmit</button>
+        </form>
+    </body>
+</html>
